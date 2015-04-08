@@ -8,6 +8,7 @@
     android:id="@+id/mainlayout"
     android:background="#00000000">
 
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -26,8 +27,8 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/backarrow"
-                android:src="@drawable/mdiAppBar"
+
+                android:src="@drawable/mdiappbar"
                 android:background="#000066"
                 android:layout_gravity="left"  />
             <TextView
@@ -54,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:ems="10"
-                android:id="@+id/etemail"
+                android:id="@+id/user_name"
                 android:hint="  Username/Email Address"
                 android:textColorHint="#000066"
                 android:background="#ffffffff"
@@ -69,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:ems="10"
-                android:id="@+id/etpassword"
+                android:id="@+id/user_password"
                 android:hint="  Password"
                 android:textColorHint="#000066"
                 android:background="#ffffffff"
@@ -88,12 +89,13 @@
             <CheckBox
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Remember me!"
-                android:id="@+id/checkBox"
+                android:text="@string/remember_me_check_box"
+                android:id="@+id/remember_checkBox"
                 android:textColor="#000066"
                 android:textSize="15dp"
                 android:textStyle="bold|italic"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onRememberClick"/>
 
         </LinearLayout>
 
@@ -109,7 +111,9 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
     android:background="#00000000"
-    android:src="@drawable/loginButton" />
+    android:src="@drawable/loginbutton"
+    android:id="@+id/login_button"
+    android:onClick="onLoginClick"/>
 
         </LinearLayout>
 
@@ -123,25 +127,28 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/forget_password"
-                android:id="@+id/forgetpsw"
+                android:id="@+id/password_forget"
                 android:gravity="left"
                 android:layout_marginTop="12dp"
                 android:textColor="#000066"
                 android:textStyle="italic"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:onClick="onForgetPasswordClick"/>
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/sign_up"
-                android:id="@+id/signup"
+                android:id="@+id/sign_up"
                 android:layout_weight="1"
                 android:gravity="right"
                 android:layout_marginTop="12dp"
                 android:textColor="#000066"
                 android:textSize="20dp"
-                android:textStyle="italic" />
+                android:textStyle="italic"
+                android:onClick="onSignUpClick"/>
+
         </LinearLayout>
 
     </LinearLayout>

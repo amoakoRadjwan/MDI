@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MDI_interface</string>
+    <string name="app_name">MDI</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="forget_password">Forgot password?</string>
@@ -11,5 +11,6 @@
     <string name="submit_button">submit</string>
     <string name="send_button_view">Send</string>
     <string name="sign_up_text_view">Sign Up</string>
+    <string name="remember_me_check_box">Remember me!</string>
 
 </resources>

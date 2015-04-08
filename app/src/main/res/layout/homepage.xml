@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="100"
-    android:id="@+id/">
+   >
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -13,8 +13,8 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/mdiAppBar"
-            android:background="@drawable/mdiAppBar" />
+            android:src="@drawable/mdiappbar"
+            android:background="#00000000" />
         </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -22,16 +22,16 @@
         <ImageButton
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/salamIcon"
+            android:src="@drawable/salamicon"
             android:background="#00000000" />
         </LinearLayout>
 <ImageButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:src="@drawable/newhomeLogo"
+    android:src="@drawable/newhomelogo"
     android:background="#00000000"
     android:layout_gravity="center"
-    android:id="@+id/" />
+    />
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="140dp"
-            android:src="@drawable/DailyQuran" />
+            android:src="@drawable/dailyquran" />
         <ImageButton
             android:layout_row="0"
             android:layout_column="2"

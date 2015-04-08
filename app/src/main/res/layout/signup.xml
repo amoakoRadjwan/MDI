@@ -15,7 +15,7 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/mdiAppBar"
+            android:src="@drawable/mdiappbar"
             android:background="#00000000" />
 
         <TextView
@@ -40,7 +40,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/salamIcon"
+        android:background="@drawable/salamicon"
         android:layout_gravity="center"  />
     </LinearLayout>
     <LinearLayout
@@ -86,7 +86,7 @@
             android:orientation = "horizontal"
             android:paddingTop="10dp"
             android:paddingLeft="10dp"
-            android:layoutApperance = "?android:attr/textAppearanceLarge"
+
             android:text="@string/email_text"
             android:textColor="#000066"
             android:textAllCaps="true"
@@ -127,7 +127,7 @@
             android:textAllCaps="true"
             android:textStyle="bold"
            android:paddingTop="10dp"
-            android:layoutApperance = "?android:attr/textAppearanceLarge"
+
             android:textSize="15sp" />
         <RadioGroup
             android:layout_width="wrap_content"
@@ -165,7 +165,7 @@
         <TextView
             android:layout_height = "wrap_content"
             android:layout_width ="wrap_content"
-            android:layoutApperance = "?android:attr/textAppearanceLarge"
+
             android:text="About Me"
             android:textColor="#000066"
             android:textAllCaps="true"
@@ -187,7 +187,7 @@
 
         <EditText
             android:layout_width="360dp"
-            android:layout_height="170dp"
+            android:layout_height="150dp"
             android:id="@+id/editText"
             android:background="#ffffffff"
             android:orientation= "horizontal"
@@ -199,11 +199,11 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:paddingTop="30dp">
+    android:paddingTop="10dp" >
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/submitButton"
+        android:src="@drawable/submitbutton"
         android:background="#00000000" />
     </LinearLayout>
 </LinearLayout>
